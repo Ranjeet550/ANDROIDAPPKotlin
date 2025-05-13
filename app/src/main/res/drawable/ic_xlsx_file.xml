@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Document base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,2H6C4.9,2 4,2.9 4,4V20C4,21.1 4.9,22 6,22H18C19.1,22 20,21.1 20,20V8L14,2Z"/>
+    
+    <!-- Document fold -->
+    <path
+        android:fillColor="#E2E2E2"
+        android:pathData="M14,2V8H20L14,2Z"/>
+    
+    <!-- Green background for Excel -->
+    <path
+        android:fillColor="#1D6F42"
+        android:pathData="M13,9H6V17H13C13.55,17 14,16.55 14,16V10C14,9.45 13.55,9 13,9Z"/>
+    
+    <!-- Excel logo -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M8.2,15L9.5,12.5L8.25,10H9.4L10.15,11.65L10.9,10H12L10.75,12.5L12.05,15H10.9L10.15,13.35L9.4,15H8.2Z"/>
+    
+    <!-- XLSX text -->
+    <path
+        android:fillColor="#1D6F42"
+        android:pathData="M16.5,10.25H15.5V9.5H18.5V10.25H17.5V15H16.5V10.25Z"/>
+    <path
+        android:fillColor="#1D6F42"
+        android:pathData="M15.5,11.5H16.5V12.5H15.5V11.5Z"/>
+    <path
+        android:fillColor="#1D6F42"
+        android:pathData="M17.5,11.5H18.5V12.5H17.5V11.5Z"/>
+    <path
+        android:fillColor="#1D6F42"
+        android:pathData="M15.5,13.5H16.5V15H15.5V13.5Z"/>
+    <path
+        android:fillColor="#1D6F42"
+        android:pathData="M17.5,13.5H18.5V15H17.5V13.5Z"/>
+</vector>

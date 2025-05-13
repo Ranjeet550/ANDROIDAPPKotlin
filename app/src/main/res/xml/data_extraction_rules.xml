@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Backup all shared preferences -->
+        <include domain="sharedpref" path="."/>
+        
+        <!-- Backup the database -->
+        <include domain="database" path="."/>
+        
+        <!-- Backup files in the app's files directory -->
+        <include domain="file" path="."/>
+        
+        <!-- Exclude specific files or directories if needed -->
+        <!-- <exclude domain="file" path="temp_files"/> -->
+    </cloud-backup>
+    <device-transfer>
+        <include domain="sharedpref" path="."/>
+        <include domain="database" path="."/>
+        <include domain="file" path="."/>
+    </device-transfer>
+</data-extraction-rules>

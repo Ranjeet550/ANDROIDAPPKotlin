@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.constructionmanagement.app.ui.dashboard.DashboardFragment"
+        android:label="@string/nav_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_workers"
+        android:name="com.constructionmanagement.app.ui.worker.WorkerListFragment"
+        android:label="@string/nav_workers"
+        tools:layout="@layout/fragment_worker_list" />
+
+    <fragment
+        android:id="@+id/navigation_sites"
+        android:name="com.constructionmanagement.app.ui.site.SiteListFragment"
+        android:label="@string/nav_sites"
+        tools:layout="@layout/fragment_site_list" />
+
+    <fragment
+        android:id="@+id/navigation_payments"
+        android:name="com.constructionmanagement.app.ui.payment.PaymentFragment"
+        android:label="@string/nav_payments"
+        tools:layout="@layout/fragment_payment" />
+
+    <fragment
+        android:id="@+id/navigation_reports"
+        android:name="com.constructionmanagement.app.ui.report.ReportFragment"
+        android:label="@string/nav_reports"
+        tools:layout="@layout/fragment_report" />
+
+</navigation>

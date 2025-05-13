@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="?attr/selectableItemBackground">
+
+    <!-- Serial Number Column -->
+    <TextView
+        android:id="@+id/text_worker_sn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"
+        tools:text="1" />
+
+    <!-- Photo Column -->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/image_worker"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="Worker Photo"
+            android:scaleType="centerCrop"
+            tools:src="@android:drawable/ic_menu_gallery" />
+    </FrameLayout>
+
+    <!-- Name Column -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/text_worker_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            tools:text="John Doe" />
+
+        <TextView
+            android:id="@+id/text_worker_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            tools:text="+1 234 567 8901" />
+    </LinearLayout>
+
+    <!-- Role Column -->
+    <TextView
+        android:id="@+id/text_worker_skill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:layout_gravity="center_vertical"
+        tools:text="Carpenter" />
+
+    <!-- Status Column -->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:layout_gravity="center_vertical">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_worker_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:textSize="12sp"
+            tools:text="Active" />
+    </FrameLayout>
+
+    <!-- Action Column -->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:layout_gravity="center_vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_view_worker"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view"
+            android:textSize="12sp"
+            android:textColor="@color/primary"
+            app:strokeColor="@color/primary" />
+    </FrameLayout>
+
+    <!-- Hidden site chip for reference -->
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip_worker_site"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone" />
+
+</LinearLayout>

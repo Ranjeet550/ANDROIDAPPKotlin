@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="?attr/selectableItemBackground">
+
+    <!-- S.N. Column -->
+    <TextView
+        android:id="@+id/text_serial_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:layout_gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="4dp"
+        tools:text="1" />
+
+    <!-- Worker Column -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginEnd="4dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_worker"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_person"
+            app:civ_border_color="@color/primary"
+            app:civ_border_width="1dp"
+            android:layout_marginEnd="4dp" />
+
+        <TextView
+            android:id="@+id/text_worker_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="John Doe" />
+    </LinearLayout>
+
+    <!-- Reason Column -->
+    <TextView
+        android:id="@+id/text_reason"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:layout_gravity="center_vertical"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="12sp"
+        android:layout_marginEnd="4dp"
+        tools:text="Medical emergency" />
+
+    <!-- Amount Column -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:orientation="horizontal"
+        android:gravity="end|center_vertical"
+        android:layout_marginEnd="4dp">
+
+        <TextView
+            android:id="@+id/icon_rupee"
+            style="@style/RupeeSymbol.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:textColor="@color/warning"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/text_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/warning"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="2,000" />
+    </LinearLayout>
+
+    <!-- Status Column -->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:layout_gravity="center"
+        android:layout_marginEnd="4dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_advance_status"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            app:cornerRadius="14dp"
+            android:layout_gravity="center"
+            app:backgroundTint="@null"
+            tools:text="Pending" />
+    </FrameLayout>
+
+    <!-- View Action Column -->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:layout_gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_view_advance"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:padding="0dp"
+            app:icon="@drawable/ic_visibility"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconSize="18dp"
+            app:cornerRadius="18dp"
+            android:background="@drawable/button_payment_action_background"
+            app:backgroundTint="@null"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <!-- Hidden details for use in other screens -->
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        tools:text="2023-01-15" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Green background -->
+    <path
+        android:fillColor="#217346"
+        android:pathData="M2,3L2,21L22,21L22,3L2,3ZM20,19L4,19L4,5L20,5L20,19Z"/>
+    
+    <!-- Excel logo background -->
+    <path
+        android:fillColor="#217346"
+        android:pathData="M4,5L20,5L20,19L4,19Z"/>
+    
+    <!-- Excel X -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M9,8L7,8L7,16L9,16L9,13L12,16L14.5,16L10.5,12L14,8L12,8L9,11L9,8Z"/>
+    
+    <!-- Excel grid lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M15,8L17,8L17,10L15,10Z"/>
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M15,11L17,11L17,13L15,13Z"/>
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M15,14L17,14L17,16L15,16Z"/>
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,8L14,8L14,10L12,10Z"/>
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,11L14,11L14,13L12,13Z"/>
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,14L14,14L14,16L12,16Z"/>
+</vector>

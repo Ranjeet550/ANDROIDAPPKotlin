@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Helmet -->
+    <path
+        android:fillColor="#FF7F66"
+        android:pathData="M152,40 C100,40 60,80 60,140 L244,140 C244,80 204,40 152,40" />
+
+    <!-- Helmet Stripes -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M132,40 L132,140 M172,40 L172,140" />
+
+    <!-- Helmet Rim -->
+    <path
+        android:fillColor="#FF5533"
+        android:pathData="M40,140 L264,140 L264,170 L40,170 Z" />
+
+    <!-- Face -->
+    <path
+        android:fillColor="#F2D7BC"
+        android:pathData="M104,170 L200,170 L200,240 L104,240 Z" />
+
+    <!-- Ears -->
+    <path
+        android:fillColor="#F2D7BC"
+        android:pathData="M104,200 C84,200 74,210 74,220 C74,230 84,240 104,240 M200,200 C220,200 230,210 230,220 C230,230 220,240 200,240" />
+
+    <!-- Neck -->
+    <path
+        android:fillColor="#F2D7BC"
+        android:pathData="M152,240 L152,280 L130,300 L174,300 L152,280" />
+
+    <!-- Jacket -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M40,300 C40,400 100,460 152,460 C204,460 264,400 264,300 L174,300 L152,340 L130,300 Z" />
+
+    <!-- Shirt -->
+    <path
+        android:fillColor="#E6E6E6"
+        android:pathData="M130,300 L152,340 L174,300 L152,280 Z" />
+
+    <!-- Tie -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M152,280 L140,300 L152,320 L164,300 Z" />
+
+    <!-- Hand -->
+    <path
+        android:fillColor="#F2D7BC"
+        android:pathData="M100,420 L140,420 L140,440 L100,440 Z" />
+
+    <!-- Building -->
+    <path
+        android:fillColor="#D4B28C"
+        android:pathData="M320,140 L400,140 L400,340 L320,340 Z" />
+
+    <!-- Building Windows -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M340,180 L360,180 L360,200 L340,200 Z M370,180 L390,180 L390,200 L370,200 Z M340,210 L360,210 L360,230 L340,230 Z M370,210 L390,210 L390,230 L370,230 Z M340,240 L360,240 L360,260 L340,260 Z M370,240 L390,240 L390,260 L370,260 Z M370,270 L390,270 L390,290 L370,290 Z" />
+
+    <!-- Building Antennas -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M340,140 L340,110 M360,140 L360,100 M380,140 L380,120" />
+
+    <!-- Document Building -->
+    <path
+        android:fillColor="#E6E6E6"
+        android:pathData="M320,340 L400,340 L400,400 L320,400 Z" />
+
+    <!-- Document Lines -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M330,350 L330,390 M350,350 L350,390 M370,350 L370,390" />
+
+    <!-- Clipboard -->
+    <path
+        android:fillColor="#D4B28C"
+        android:pathData="M400,340 L460,340 L460,400 L400,400 Z" />
+
+    <!-- Clipboard Lines -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M410,360 L450,360 M410,380 L450,380" />
+
+    <!-- Wheelbarrow -->
+    <path
+        android:fillColor="#A9B7C6"
+        android:pathData="M280,400 L480,400 L500,440 L260,440 Z" />
+
+    <!-- Wheelbarrow Handle -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M480,400 L520,320" />
+
+    <!-- Wheel -->
+    <path
+        android:fillColor="#F2D7BC"
+        android:pathData="M380,440 C360,440 350,450 350,460 C350,470 360,480 380,480 C400,480 410,470 410,460 C410,450 400,440 380,440" />
+
+    <!-- Outline -->
+    <path
+        android:fillColor="#000000"
+        android:strokeColor="#000000"
+        android:strokeWidth="12"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillAlpha="0"
+        android:pathData="M152,40 C100,40 60,80 60,140 L244,140 C244,80 204,40 152,40 Z M40,140 L264,140 L264,170 L40,170 Z M104,170 L200,170 L200,240 L104,240 Z M104,200 C84,200 74,210 74,220 C74,230 84,240 104,240 M200,200 C220,200 230,210 230,220 C230,230 220,240 200,240 M152,240 L152,280 L130,300 L174,300 L152,280 M40,300 C40,400 100,460 152,460 C204,460 264,400 264,300 L174,300 L152,340 L130,300 Z M100,420 L140,420 L140,440 L100,440 Z M320,140 L400,140 L400,340 L320,340 Z M340,180 L360,180 L360,200 L340,200 Z M370,180 L390,180 L390,200 L370,200 Z M340,210 L360,210 L360,230 L340,230 Z M370,210 L390,210 L390,230 L370,230 Z M340,240 L360,240 L360,260 L340,260 Z M370,240 L390,240 L390,260 L370,260 Z M370,270 L390,270 L390,290 L370,290 Z M340,140 L340,110 M360,140 L360,100 M380,140 L380,120 M320,340 L400,340 L400,400 L320,400 Z M330,350 L330,390 M350,350 L350,390 M370,350 L370,390 M400,340 L460,340 L460,400 L400,400 Z M410,360 L450,360 M410,380 L450,380 M280,400 L480,400 L500,440 L260,440 Z M480,400 L520,320 M380,440 C360,440 350,450 350,460 C350,470 360,480 380,480 C400,480 410,470 410,460 C410,450 400,440 380,440" />
+</vector>

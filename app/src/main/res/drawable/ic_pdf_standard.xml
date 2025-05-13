@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Document base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M4,2C3.45,2 3,2.45 3,3V21C3,21.55 3.45,22 4,22H20C20.55,22 21,21.55 21,21V7L16,2H4Z"/>
+    
+    <!-- Document fold -->
+    <path
+        android:fillColor="#E2E2E2"
+        android:pathData="M16,2V7H21L16,2Z"/>
+    
+    <!-- Document outline -->
+    <path
+        android:fillColor="#000000"
+        android:strokeWidth="0.5"
+        android:pathData="M4,2C3.45,2 3,2.45 3,3V21C3,21.55 3.45,22 4,22H20C20.55,22 21,21.55 21,21V7L16,2H4Z"
+        android:strokeColor="#000000"
+        android:fillAlpha="0"/>
+    
+    <!-- Red bottom section -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M3,16V21C3,21.55 3.45,22 4,22H20C20.55,22 21,21.55 21,21V16H3Z"/>
+    
+    <!-- PDF text -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M7,18.25C7,18.66 7.34,19 7.75,19H8.25C8.66,19 9,18.66 9,18.25V17.5H10.25C10.66,17.5 11,17.16 11,16.75V16.25C11,15.84 10.66,15.5 10.25,15.5H7.75C7.34,15.5 7,15.84 7,16.25V18.25ZM8,16.5H10V17H8V16.5Z"/>
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M11.5,19H13.5C14.33,19 15,18.33 15,17.5V16.5C15,15.67 14.33,15 13.5,15H11.5V19ZM12.5,16H13.5C13.78,16 14,16.22 14,16.5V17.5C14,17.78 13.78,18 13.5,18H12.5V16Z"/>
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16,19H17V16H18.5V15H16V19Z"/>
+    
+    <!-- Download arrow -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M17,12.5V9.5H15V12.5H13L16,15.5L19,12.5H17Z"/>
+</vector>

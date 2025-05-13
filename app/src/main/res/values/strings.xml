@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Construction Worker Management</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_workers">Workers</string>
+    <string name="nav_sites">Sites</string>
+    <string name="nav_payments">Payments</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Worker Management -->
+    <string name="add_worker">Add Worker</string>
+    <string name="edit_worker">Edit Worker</string>
+    <string name="worker_details">Worker Details</string>
+    <string name="worker_name">Name</string>
+    <string name="worker_mobile">Mobile Number</string>
+    <string name="worker_address">Address</string>
+    <string name="worker_emergency_contact">Emergency Contact</string>
+    <string name="worker_id_proof">ID Proof</string>
+    <string name="worker_id_number">ID Number</string>
+    <string name="worker_joining_date">Joining Date</string>
+    <string name="worker_wage">Wage</string>
+    <string name="worker_wage_type">Wage Type</string>
+    <string name="worker_skill">Skill Type</string>
+    <string name="worker_notes">Notes</string>
+    <string name="worker_photo">Photo</string>
+    <string name="worker_status">Status</string>
+    <string name="worker_site">Assigned Site</string>
+
+    <!-- Site Management -->
+    <string name="add_site">Add Site</string>
+    <string name="edit_site">Edit Site</string>
+    <string name="site_details">Site Details</string>
+    <string name="site_name">Site Name</string>
+    <string name="site_address">Site Address</string>
+    <string name="site_client">Client Name</string>
+    <string name="site_client_contact">Client Contact</string>
+    <string name="site_start_date">Start Date</string>
+    <string name="site_end_date">Expected End Date</string>
+    <string name="site_status">Status</string>
+    <string name="site_notes">Notes</string>
+    <string name="site_workers">Assigned Workers</string>
+    <string name="select_workers">Select Workers</string>
+    <string name="worker_assignment">Worker Assignment</string>
+    <string name="no_workers_assigned">No workers assigned yet</string>
+    <string name="add_workers">Add Workers</string>
+
+    <!-- Payment Management -->
+    <string name="process_payment">Process Payment</string>
+    <string name="advance_payment">Advance Payment</string>
+    <string name="advance_details">Advance Details</string>
+    <string name="record_advance">Record Advance</string>
+    <string name="payment_history">Payment History</string>
+    <string name="payment_month">Month</string>
+    <string name="payment_year">Year</string>
+    <string name="payment_amount">Amount</string>
+    <string name="payment_date">Payment Date</string>
+    <string name="payment_mode">Payment Mode</string>
+    <string name="payment_reference">Reference Number</string>
+    <string name="payment_notes">Notes</string>
+    <string name="payment_description">Description</string>
+    <string name="advance_amount">Advance Amount</string>
+    <string name="advance_reason">Reason for Advance</string>
+    <string name="advance_date">Date of Advance</string>
+    <string name="payment_actions">Payment Actions</string>
+    <string name="recent_payments">Recent Payments</string>
+    <string name="recent_advances">Recent Advances</string>
+    <string name="no_payments_found">No payments found</string>
+    <string name="no_advances_found">No advances found</string>
+    <string name="payment_report">Payment Report</string>
+    <string name="select_worker">Select Worker</string>
+    <string name="select_site">Select Site</string>
+
+    <!-- Reports -->
+    <string name="generate_report">Generate Report</string>
+    <string name="report_type">Report Type</string>
+    <string name="date_range">Date Range</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="report_site">Site</string>
+    <string name="report_worker">Worker</string>
+    <string name="report_export_format">Export Format</string>
+    <string name="report_preview">Report Preview</string>
+    <string name="report_export">Export</string>
+    <string name="report_share">Share</string>
+    <string name="no_data_found">No data found</string>
+    <string name="download">Download</string>
+    <string name="share">Share</string>
+    <string name="worker_list_report">Worker List Report</string>
+    <string name="payment_history_report">Payment History Report</string>
+    <string name="advance_payment_report">Advance Payment Report</string>
+    <string name="site_summary_report">Site Summary Report</string>
+    <string name="attendance_report">Attendance Report</string>
+    <string name="export_options">Export Options</string>
+    <string name="excel_format">Excel</string>
+    <string name="pdf_format">PDF</string>
+    <string name="filters">Filters</string>
+    <string name="report_generated">Report Generated</string>
+    <string name="download_report">Download Report</string>
+    <string name="report_saved">Report saved successfully</string>
+    <string name="pdf_report_generated">PDF Report Generated</string>
+    <string name="excel_report_generated">Excel Report Generated</string>
+    <string name="preview_pdf">Preview PDF</string>
+    <string name="preview_pdf_instruction">Click the button below to preview the PDF</string>
+    <string name="use_download_button">Use the download button to save the file</string>
+
+    <!-- Settings -->
+    <string name="backup_restore">Backup &amp; Restore</string>
+    <string name="create_backup">Create Backup</string>
+    <string name="restore_backup">Restore from Backup</string>
+    <string name="security">Security</string>
+    <string name="set_pin">Set PIN</string>
+    <string name="change_pin">Change PIN</string>
+    <string name="preferences">Preferences</string>
+    <string name="theme">Theme</string>
+    <string name="currency_format">Currency Format</string>
+    <string name="date_format">Date Format</string>
+
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="confirm">Confirm</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="view">View</string>
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="tap_to_change_profile_picture">Tap to change profile picture</string>
+    <string name="save_changes">Save Changes</string>
+</resources>

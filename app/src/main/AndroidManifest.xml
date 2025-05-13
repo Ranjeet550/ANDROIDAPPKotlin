@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />
+
+    <application
+        android:name=".ConstructionApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ConstructionWorkerManagement"
+        android:fullBackupContent="@xml/backup_rules"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:requestLegacyExternalStorage="true">
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ConstructionWorkerManagement.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <activity android:name=".ui.worker.AddWorkerActivity" />
+        <activity android:name=".ui.worker.WorkerDetailsActivity" />
+        <activity android:name=".ui.worker.EditWorkerActivity" />
+        <activity android:name=".ui.site.AddSiteActivity" />
+        <activity android:name=".ui.site.SiteDetailsActivity" />
+        <activity android:name=".ui.site.EditSiteActivity" />
+        <activity android:name=".ui.payment.ProcessPaymentActivity" />
+        <activity android:name=".ui.payment.AdvancePaymentActivity" />
+        <activity android:name=".ui.payment.AdvanceDetailsActivity" />
+        <activity android:name=".ui.payment.PaymentDetailsActivity" />
+        <activity
+            android:name=".ui.payment.PaymentReportActivity"
+            android:theme="@style/Theme.ConstructionWorkerManagement.NoActionBar" />
+        <activity
+            android:name=".ui.report.ReportGenerationActivity"
+            android:theme="@style/Theme.ConstructionWorkerManagement.NoActionBar" />
+        <activity android:name=".ui.settings.SettingsActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.constructionmanagement.app.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>
